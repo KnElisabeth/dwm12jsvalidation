@@ -1,0 +1,19 @@
+document.querySelectorAll("p")[0].addEventListener("mouseover",()=>{
+    document.querySelectorAll("p")[0].classList.toggle("modified")
+});
+document.querySelectorAll("p")[0].addEventListener("mouseout",()=>{
+    document.querySelectorAll("p")[0].classList.toggle("modified")
+});
+document.querySelectorAll("p")[1].addEventListener("mouseover",()=>{
+    document.querySelectorAll("p")[1].classList.toggle("modified")
+});
+document.querySelectorAll("p")[1].addEventListener("mouseout",()=>{
+    document.querySelectorAll("p")[1].classList.toggle("modified")
+});
+document.querySelectorAll("p")[2].addEventListener("mouseover",()=>{
+    document.querySelectorAll("p")[2].classList.toggle("modified")
+});
+document.querySelectorAll("p")[2].addEventListener("mouseout",()=>{
+    document.querySelectorAll("p")[2].classList.toggle("modified")
+});
+
